@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sable Lily colour study</title>
+  <desc id="desc">Charcoal and ivory colour profile with a measured luminous edge.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111317"/><stop offset=".52" stop-color="#35343a"/><stop offset="1" stop-color="#aaa39a"/></linearGradient>
+    <linearGradient id="ivory" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff8e9" stop-opacity="0"/><stop offset=".5" stop-color="#fff8e9" stop-opacity=".74"/><stop offset="1" stop-color="#fff8e9" stop-opacity="0"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .08 0"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M-90 670C250 520 450 590 720 360s370-250 560-220" fill="none" stroke="url(#ivory)" stroke-width="190" filter="url(#blur)"/>
+  <path d="M-50 650C260 520 475 578 728 352s350-230 530-210" fill="none" stroke="#fff7e7" stroke-opacity=".34" stroke-width="2"/>
+  <path d="M0 730C290 585 470 640 760 400s300-190 510-220" fill="none" stroke="#fff7e7" stroke-opacity=".18" stroke-width="1"/>
+  <circle cx="882" cy="300" r="170" fill="none" stroke="#fff7e7" stroke-opacity=".18"/>
+  <circle cx="882" cy="300" r="108" fill="none" stroke="#fff7e7" stroke-opacity=".11"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".25"/>
+  <text x="72" y="790" fill="#fff7e7" fill-opacity=".82" font-family="Arial, sans-serif" font-size="18" letter-spacing="5">SABLE LILY / STRUCTURE STUDY</text>
+  <text x="72" y="832" fill="#fff7e7" fill-opacity=".52" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">LUKA / LIMITED LINE</text>
+</svg>

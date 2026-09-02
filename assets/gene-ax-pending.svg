@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ax colour study</title>
+  <desc id="desc">Silver and graphite colour profile with a restrained cool grey scale.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1116"/><stop offset=".55" stop-color="#48545e"/><stop offset="1" stop-color="#b4c0c5"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#eef6f8" stop-opacity="0"/><stop offset=".5" stop-color="#eaf5f6" stop-opacity=".62"/><stop offset="1" stop-color="#eef6f8" stop-opacity="0"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .09 0"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M20 790 1050-20" stroke="url(#silver)" stroke-width="210" opacity=".6" filter="url(#soft)"/>
+  <path d="M-40 760 1040-25M50 875 1150 80M230 980 1280 205" stroke="#eaf5f6" stroke-opacity=".22" stroke-width="1"/>
+  <circle cx="770" cy="286" r="212" fill="none" stroke="#ecf8fa" stroke-opacity=".2"/>
+  <circle cx="770" cy="286" r="136" fill="none" stroke="#ecf8fa" stroke-opacity=".12"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".27"/>
+  <text x="72" y="790" fill="#eaf5f6" fill-opacity=".8" font-family="Arial, sans-serif" font-size="18" letter-spacing="6">AX / CHROMA STUDY</text>
+  <text x="72" y="832" fill="#eaf5f6" fill-opacity=".5" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">LUKA / FOUNDATION LINE</text>
+</svg>
